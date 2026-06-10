@@ -1,0 +1,4 @@
+Scenario,Visibility_ms,Vis_SD_ms,SIEM_delay_s,Total_MTTD_s
+PtH,499.7,61.0,234.9,235.39
+PtT,618.9,270.1,235.8,236.414
+CredDump,831.2,296.5,229.3,230.12

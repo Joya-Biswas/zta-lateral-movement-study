@@ -1,0 +1,50 @@
+{
+  "PtH": {
+    "zta": [
+      {"mttd": 0.338,  "mttc": 0.0226, "breach_radius": 2, "auth_latency": 32.637},
+      {"mttd": 0.2496, "mttc": 0.0131, "breach_radius": 2, "auth_latency": 33.559},
+      {"mttd": 0.2419, "mttc": 0.0122, "breach_radius": 2, "auth_latency": 33.921},
+      {"mttd": 0.2525, "mttc": 0.0108, "breach_radius": 2, "auth_latency": 28.074},
+      {"mttd": 0.2409, "mttc": 0.0128, "breach_radius": 2, "auth_latency": 28.669}
+    ],
+    "perimeter": [
+      {"mttd": 251.13, "mttc": 191.83, "breach_radius": 4, "visibility_ms": 475.4,  "siem_delay_s": 250.7, "auth_latency": 0.419},
+      {"mttd": 261.49, "mttc": 158.15, "breach_radius": 4, "visibility_ms": 472.1,  "siem_delay_s": 261.0, "auth_latency": 0.358},
+      {"mttd": 223.47, "mttc": 149.14, "breach_radius": 4, "visibility_ms": 608.5,  "siem_delay_s": 222.9, "auth_latency": 0.293},
+      {"mttd": 188.84, "mttc": 179.05, "breach_radius": 4, "visibility_ms": 476.5,  "siem_delay_s": 188.4, "auth_latency": 0.297},
+      {"mttd": 252.02, "mttc": 191.13, "breach_radius": 4, "visibility_ms": 465.9,  "siem_delay_s": 251.6, "auth_latency": 0.400}
+    ]
+  },
+  "PtT": {
+    "zta": [
+      {"mttd": 0.2422, "mttc": 0.0122, "breach_radius": 2, "auth_latency": 34.257},
+      {"mttd": 0.2443, "mttc": 0.0124, "breach_radius": 2, "auth_latency": 33.256},
+      {"mttd": 1.382,  "mttc": 0.9072, "breach_radius": 2, "auth_latency": 23.012},
+      {"mttd": 0.2431, "mttc": 0.0126, "breach_radius": 2, "auth_latency": 22.653},
+      {"mttd": 0.2633, "mttc": 0.0119, "breach_radius": 2, "auth_latency": 25.319}
+    ],
+    "perimeter": [
+      {"mttd": 268.22, "mttc": 189.86, "breach_radius": 3, "visibility_ms": 469.2,  "siem_delay_s": 267.8, "auth_latency": 0.419},
+      {"mttd": 266.21, "mttc": 172.21, "breach_radius": 3, "visibility_ms": 473.0,  "siem_delay_s": 265.7, "auth_latency": 0.394},
+      {"mttd": 210.47, "mttc": 140.44, "breach_radius": 3, "visibility_ms": 467.5,  "siem_delay_s": 210.0, "auth_latency": 0.414},
+      {"mttd": 245.35, "mttc": 144.62, "breach_radius": 3, "visibility_ms": 1092.7, "siem_delay_s": 244.3, "auth_latency": 0.376},
+      {"mttd": 191.82, "mttc": 143.80, "breach_radius": 3, "visibility_ms": 591.9,  "siem_delay_s": 191.2, "auth_latency": 0.368}
+    ]
+  },
+  "CredDump": {
+    "zta": [
+      {"mttd": 0.3699, "mttc": 0.0106, "breach_radius": 3, "auth_latency": 26.740},
+      {"mttd": 0.3658, "mttc": 0.0117, "breach_radius": 3, "auth_latency": 33.985},
+      {"mttd": 0.3735, "mttc": 0.0110, "breach_radius": 3, "auth_latency": 25.467},
+      {"mttd": 0.3702, "mttc": 0.0117, "breach_radius": 3, "auth_latency": 29.912},
+      {"mttd": 0.3615, "mttc": 0.0445, "breach_radius": 3, "auth_latency": 32.357}
+    ],
+    "perimeter": [
+      {"mttd": 212.22, "mttc": 184.34, "breach_radius": 5, "visibility_ms": 684.9,  "siem_delay_s": 211.5, "auth_latency": 0.364},
+      {"mttd": 220.35, "mttc": 153.55, "breach_radius": 5, "visibility_ms": 728.9,  "siem_delay_s": 219.6, "auth_latency": 0.360},
+      {"mttd": 268.17, "mttc": 177.66, "breach_radius": 5, "visibility_ms": 697.3,  "siem_delay_s": 267.5, "auth_latency": 0.379},
+      {"mttd": 202.85, "mttc": 187.36, "breach_radius": 5, "visibility_ms": 684.2,  "siem_delay_s": 202.2, "auth_latency": 0.289},
+      {"mttd": 247.01, "mttc": 187.37, "breach_radius": 5, "visibility_ms": 1360.6, "siem_delay_s": 245.7, "auth_latency": 0.418}
+    ]
+  }
+}
