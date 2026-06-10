@@ -46,14 +46,11 @@ The trade-off? Zero Trust adds about **29 milliseconds** of delay per login — 
 
 ```
 .
-├── experiment/
-│   ├── policy_engine_v2.py     # Main experiment: ZTA Policy Engine + attack scenarios + perimeter sniffer
-│   ├── rebuild_testbed.sh      # Shell script to spin up the 8-namespace Linux testbed
-│   └── results_v2.json         # Raw trial results (30 trials across 3 scenarios × 2 architectures)
-├── analysis/
-│   └── colab_cell5_figures.py  # Figure generation script (runs on Google Colab or locally)
-├── analysis.ipynb              # Full analysis notebook: statistics, Mann-Whitney U, Cohen's d, plots
-└── images/                     # All output figures used in the paper
+│── policy_engine_v2.py     # Main experiment: ZTA Policy Engine + attack scenarios + perimeter sniffer
+│── rebuild_testbed.sh      # Shell script to spin up the 8-namespace Linux testbed
+│── results_v2.json         # Raw trial results (30 trials across 3 scenarios × 2 architectures)
+├── analysis.ipynb          # Full analysis notebook: statistics, Mann-Whitney U, Cohen's d, plots
+└── output/                 # All output figures used in the paper
 ```
 
 ---
